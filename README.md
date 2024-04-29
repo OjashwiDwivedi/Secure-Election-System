@@ -2,7 +2,7 @@ readme_content = """
 # E-voting System using Blockchain and Python
 
 ## Overview
-1. Reference Research Paper
+1. Explanation
     1. Abstract
     2. Introduction
     3. Blockchain
@@ -16,16 +16,7 @@ readme_content = """
     5. Adding Blocks to the Chain
     6. Mining
 3. Instructions to Run Application
-4. References
 
-## 1. Reference Research Paper
-This project is based on the concept of a research paper titled **"A Conceptual Secure Blockchain-based Electronic Voting System"** by Ahmed Ben Ayed, published in the International Journal of Network Security & Its Applications (IJNSA).
-
-### Review, Summary of **"A Conceptual Secure Blockchain-based Electronic Voting System"**
-The paper advocates for the use of open-source Blockchain technology to design a new electronic voting system suitable for local or national elections.
-
-### Abstract
-The paper proposes a design for an electronic voting system based on Blockchain technology, aiming for public verifiability and distribution to prevent corruption.
 
 ### Introduction
 E-voting systems require heightened security to ensure availability to voters while safeguarding against outside interference. Blockchain technology offers a solution by providing a decentralized and tamper-resistant system.
@@ -64,14 +55,7 @@ Mining involves the process of adding transactions to the Blockchain by solving 
 3. Start a blockchain node server using `export FLASK_APP=service.py` followed by `flask run --port 8000` or `python3 -m flask run --port 8000`.
 4. Run the application using `python app.py`. Access the application at [http://localhost:5000](http://localhost:5000).
 
-## 4. References
-1. Research Paper: *A Conceptual Secure Blockchain-based Electronic Voting System* by Ahmed Ben Ayed.
-2. GeeksforGeeks: Decentralized Voting System using Blockchain.
-3. JavaTpoint: Blockchain Proof of Work.
-4. GitHub: Python Blockchain App by Satwik Kansal.
-5. IBM: What is Blockchain?
-6. Wikipedia: Blockchain.
-7. GitHub: Online Voting Using Blockchain by Abhiram Borige.
+
 """
 
 
